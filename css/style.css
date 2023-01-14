@@ -3,3 +3,74 @@
     margin: 0;
     padding: 0;
 }
+
+/* header section css  */
+/* navbar css  */
+
+header {
+    background-color: antiquewhite;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3 span {
+    color: chartreuse;
+
+}
+
+.nav-style {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 4%;
+
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-li {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    list-style: none;
+}
+
+/* header text section css  */
+h1 {
+    font-size: 3em;
+
+}
+
+.header-text {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    padding: 15px 20px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+/* header img  css*/
+.header-img {
+    text-align: center;
+    margin-top: 4%;
+    padding-bottom: 2%;
+}
