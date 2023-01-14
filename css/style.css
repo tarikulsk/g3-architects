@@ -116,6 +116,10 @@ ul {
     list-style: none;
 }
 
+li {
+    list-style: none;
+}
+
 .features-li {
     border: none;
     border-radius: 5px;
@@ -131,8 +135,38 @@ ul {
     padding: 2% 4%;
     color: white;
     font-weight: 900;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: -50px;
+    margin-left: -50px;
+
+}
+
+/* fact section  */
+.fact {
+    margin-left: 10%;
+    margin-top: 43mm;
+}
+
+.fact-lists {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 3em;
+
+
+}
+
+.fact-li {
+    border: 2px solid orange;
+    border-radius: 5px;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    padding-top: 3em;
+    transition: width 2s, height 2s, transform 2s;
+
+}
+
+.fact-li:hover {
+    background-color: rgb(79, 79, 248);
+    color: white;
+    transform: rotate(360deg);
 }
