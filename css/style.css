@@ -48,6 +48,7 @@ a {
 h1 {
     font-size: 3em;
 
+
 }
 
 .header-text {
@@ -73,4 +74,65 @@ h1 {
     text-align: center;
     margin-top: 4%;
     padding-bottom: 2%;
+}
+
+/* team section css  */
+.teams {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+    align-items: center;
+    column-gap: 5%;
+    margin-bottom: 3%;
+}
+
+.team-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 5%;
+    column-gap: 2%;
+}
+
+/* features section css */
+.features {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    column-gap: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.features h1 {
+    border-left: 5px solid orange;
+    padding-left: 5%;
+    margin-bottom: 5%;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.features-li {
+    border: none;
+    border-radius: 5px;
+    padding: 5%;
+    box-shadow: 3px 3px 3px 5px rgb(207, 207, 207);
+    margin-bottom: 6%;
+}
+
+.features-btn {
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    padding: 2% 4%;
+    color: white;
+    font-weight: 900;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
 }
