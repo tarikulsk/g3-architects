@@ -110,6 +110,14 @@ h1 {
     column-gap: 2%;
 }
 
+.team-text-1 {
+    color: grey;
+}
+
+.team-text-2 {
+    color: orange;
+}
+
 /* features section css */
 .features {
     display: grid;
