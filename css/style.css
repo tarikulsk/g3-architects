@@ -283,6 +283,8 @@ h5 {
     border-radius: 5px;
 }
 
+
+/* Mobile Responsive start */
 @media screen and (max-width:576px) {
     header {
         padding-bottom: 5%;
@@ -387,18 +389,11 @@ h5 {
     .footer {
         background-color: rgb(250, 157, 36);
         color: white;
-        height: 50px;
+        height: 75px;
 
     }
 }
 
 
 
-/* Mobile Device Responsive  *
-
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
+/* Mobile Device Responsive end *
