@@ -4,10 +4,14 @@
     padding: 0;
 }
 
+
+
+
 /* header section css  */
 /* navbar css  */
 
 header {
+    width: 100%;
     background-color: antiquewhite;
 }
 
@@ -31,6 +35,10 @@ h3 span {
 
 }
 
+.link-toggle {
+    display: none;
+}
+
 a {
     text-decoration: none;
     font-size: 20px;
@@ -41,7 +49,14 @@ a {
     display: flex;
     justify-content: space-around;
     gap: 30px;
+    overflow: hidden;
     list-style: none;
+}
+
+.menu-li a {
+    float: left;
+    display: block;
+
 }
 
 /* header text section css  */
@@ -147,10 +162,15 @@ li {
     margin-top: 43mm;
 }
 
+.fact-text {
+    margin-right: 60%;
+}
+
 .fact-lists {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 3em;
+    text-align: center;
 
 
 }
@@ -198,4 +218,117 @@ li {
     margin-bottom: 5%;
     margin-top: 5%;
     border-radius: 5px;
+}
+
+@media screen and (max-width:576px) {
+    header {
+        padding-bottom: 5%;
+    }
+
+    .nav-style {
+        display: grid;
+        row-gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .menu-li {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* display: none; */
+
+    }
+
+    .link-toggle {
+        align-self: flex-end;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+    }
+
+    .header-text {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .header-imgs {
+        width: 100%;
+    }
+
+    .teams {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 10%;
+        margin-bottom: 100px;
+
+    }
+
+    .team-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 5%;
+        margin-left: 5%;
+
+    }
+
+    .team-text {
+        margin-top: 50px;
+    }
+
+    .features {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 80px;
+    }
+
+    .features-btn {
+        display: block;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .features-img {
+        width: 100%;
+    }
+
+    .fact {
+
+        margin-top: 6%;
+
+    }
+
+    .fact-lists {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2em;
+        margin-left: 23%;
+    }
+
+    .fact-text {
+        margin-right: 0%;
+    }
+
+    .sponsor-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2em;
+    }
+
+    .footer {
+        background-color: rgb(250, 157, 36);
+        color: white;
+        height: 50px;
+
+    }
+}
+
+
+
+/* Mobile Device Responsive  *
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
